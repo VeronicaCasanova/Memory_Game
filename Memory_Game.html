@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jogo da Memória | JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Jogo da Memória</h2>
+		<div class="game"></div>
+		<button class="reset" onclick="window.location.reload();">Reset Jogo</button>
+		<foot><h3><b>Feito por Veronica Casanova</b></h3></foot>
+		<img align="center" alt="Github" height="65" width="65" title="GitHub" src="https://img.icons8.com/plasticine/256/github-squared.png">
+	</div>
+	<script>
+		const emojis = ["😻","😻","😹","😹","😺","😺","😸","😸","😽","😽","🙀","🙀","😼","😼","😿","😿"];
+		var shuf_emojis = emojis.sort(() => (Math.random() >  .5) ? 2 : -1);
+		for (var i=0; i<emojis.length; i++){
+			let box = document.createElement('div')
+			box.className = 'item';
+			box.innerHTML = shuf_emojis[i]
+
+			box.onclick = function(){
+				this.classList.add('boxOpen')
+				setTimeout(function(){
+					if(document.querySelectorAll('.boxOpen').length > 1){
+						if(document.querySelectorAll('.boxOpen')[0].innerHTML == document.querySelectorAll('.boxOpen')[1].innerHTML){
+							document.querySelectorAll('.boxOpen')[0].classList.add('boxMatch')
+							document.querySelectorAll('.boxOpen')[1].classList.add('boxMatch')
+
+							document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen')
+							document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen')
+
+							if(document.querySelectorAll('.boxMatch').length == emojis.length){
+								alert('🎉Parabéns! Você venceu!!!🎉')
+							}
+						}else{
+							document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen')
+							document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen')
+						}
+					}
+
+				},500)
+			}
+
+			document.querySelector('.game').appendChild(box);
+		}
+	</script>
+</body>
+</html>
