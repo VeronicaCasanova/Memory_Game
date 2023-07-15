@@ -109,6 +109,7 @@ h2
   .container, .item {
     max-width: 475px;
     background: magenta;
+    color:azure;
   }
 }
 
@@ -117,5 +118,6 @@ h2
   .container, .item {
     max-width: 640px;
     background: blue;
+    color:azure;
   }
 }
