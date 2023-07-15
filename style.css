@@ -115,14 +115,14 @@ h2{
 
 /* xs */
 @media (min-width: 475px) {
-  .container {
+  .container, .item {
     max-width: 475px;
   }
 }
 
 /* sm */
 @media (min-width: 640px) {
-  .container {
+  .container, .item {
     max-width: 640px;
   }
 }
