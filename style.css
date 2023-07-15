@@ -109,7 +109,7 @@ h2{
   }
 
 .container{
-    width: 100%;
+    width: auto;
     position: unset;
     display: flex;
     justify-content: center;
