@@ -105,11 +105,3 @@ h2
 }
 
 
-/* sm */
-@media (max-width: 640px) {
-  .container, .item {
-    max-width: 640px;
-    background: blue;
-    color:azure;
-  }
-}
