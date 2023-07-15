@@ -109,7 +109,7 @@ h2{
     color: green;
   }
 
-.container, body{
+.container, body, .item, .game, .reset{
     width: auto;
     margin-left: 0;
     position: unset;
