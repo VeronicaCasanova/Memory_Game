@@ -117,6 +117,7 @@ h2{
 @media (min-width: 475px) {
   .container, .item {
     max-width: 475px;
+    background: magenta;
   }
 }
 
@@ -124,5 +125,6 @@ h2{
 @media (min-width: 640px) {
   .container, .item {
     max-width: 640px;
+    background: blue;
   }
 }
