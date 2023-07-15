@@ -101,11 +101,3 @@ h2
     transform: rotateY(180deg);
 }
 
-@media only screen and (max-width:600px) {
-/* For mobile phones: */
-.container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
