@@ -110,6 +110,7 @@ h2{
 
 .container{
     width: auto;
+    margin-left: 0;
     position: unset;
     display: flex;
     justify-content: center;
