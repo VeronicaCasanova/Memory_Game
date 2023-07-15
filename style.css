@@ -24,7 +24,7 @@ body
     flex-direction: column;
     gap: 10px;
     background: rgb(218, 103, 168);
-    padding: 0px 60px;
+    padding: 40px 60px;
 }
 
 h2
