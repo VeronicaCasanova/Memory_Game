@@ -104,17 +104,9 @@ h2
     transform: rotateY(180deg);
 }
 
-/* xs */
-@media (min-width: 475px) {
-  .container, .item {
-    max-width: 475px;
-    background: magenta;
-    color:azure;
-  }
-}
 
 /* sm */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .container, .item {
     max-width: 640px;
     background: blue;
