@@ -25,6 +25,9 @@ body
     gap: 30px;
     background: rgb(218, 103, 168);
     padding: 40px 60px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2
@@ -101,20 +104,25 @@ h2
     transform: rotateY(180deg);
 }
 
-@media only screen and (max-width:600px) {
-/* For mobile phones: */
+/*@media only screen and (max-width:600px) {
+ For mobile phones: 
 h2{
     font-size: 36px;
     line-height: 50px;
     color: green;
   }
+}*/
 
-.container, body, .item, .game, .reset{
-    width: auto;
-    margin-left: 0;
-    position: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
