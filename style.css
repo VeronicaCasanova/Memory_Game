@@ -119,5 +119,16 @@ h2
     font-size: 1.0em;
     letter-spacing: 0.05em;
 	}
+
+    .game
+{
+        width: 220px;
+        height: 220px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        transform-style: preserve-3d;
+        perspective: 250px;
+    }
 	
 }
