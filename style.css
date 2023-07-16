@@ -12,6 +12,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    min-width: 400px;
     background: rgb(238, 225, 129);
 }
 
