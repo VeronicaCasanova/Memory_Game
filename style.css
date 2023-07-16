@@ -123,5 +123,11 @@ h2
 		font-size: 1.0em;
 		letter-spacing: 0.05em;
 	}
+
+	.item{
+
+   		 width: 95px;
+   		 height: 95px;
+    	}
 	
 }
