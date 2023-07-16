@@ -123,6 +123,7 @@ h2
     .item{
         width: 95px;
         height: 95px;
+        position: auto;
     }
 	
 }
