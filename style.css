@@ -11,8 +11,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
-    min-width: 400px;
+    min-height: 100vh;
     background: rgb(238, 225, 129);
 }
 
@@ -104,7 +103,7 @@ h2
 
 @media (max-width: 500px){
 	*{
-	    margin: 50px;
+	    margin: 10px;
 	    padding: 0;
 	}
 	body{
