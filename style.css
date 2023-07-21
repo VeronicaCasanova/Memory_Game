@@ -103,35 +103,28 @@ h2
 
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 600px) {
-    body {
-        padding: 20px;
-    }
     
-    .container {
-        padding: 20px;
+    .container{
+        padding: 80px 10px;
         text-align: center;
         margin: 0 auto;
-      }
-
-    .h2{
-    font-size: 2em;
     }
 
     .reset{
     padding: 10px 15px;
     font-size: 1.0em;
-	}
+    }
     
-    .game {
+    .game{
         width: 100%;
         height: auto;
         justify-content: center;
         align-items: center;
     }
 
-    .item {
-        width: 55px;
-        height: 55px;
+    .item{
+        width: 75px;
+        height: 75px;
         font-size: 2em;
     }
 }
