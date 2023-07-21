@@ -116,6 +116,11 @@ h2
     .h2{
     font-size: 2em;
     }
+
+    .reset{
+    padding: 10px 15px;
+    font-size: 1.0em;
+	}
     
     .game {
         width: 100%;
