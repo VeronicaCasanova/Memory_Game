@@ -105,10 +105,6 @@ h2
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 600px) {
 
-    body {
-		overflow: hidden
-    }
-    
     .container{
         padding: 80px 10px;
         text-align: center;
