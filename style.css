@@ -41,19 +41,13 @@ h2
     color: rgb(182, 118, 34);
     background: #fff;
     border: none;
+    border-radius: 15px;
     font-size: 1.5em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;
 }
-
-.reset:hover {background-color: rgb(67, 8, 116)}
-
-.reset:active {
-  background-color: rgb(67, 8, 116);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 
 .game
 {
@@ -109,7 +103,6 @@ h2
         padding: 80px 10px;
         text-align: center;
         margin: 0 auto;
-        position: absolute;
     }
 
     .reset{
