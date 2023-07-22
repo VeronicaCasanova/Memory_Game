@@ -109,6 +109,7 @@ h2
         padding: 80px 10px;
         text-align: center;
         margin: 0 auto;
+        position: absolute;
     }
 
     .reset{
