@@ -48,11 +48,12 @@ h2
     font-weight: 600;
 }
 
-.reset:focus
-{
-    color: #fff;
-    background: rgb(67, 8, 116);
-}
+.reset:hover {background-color: rgb(67, 8, 116)}
+
+.reset:active {
+  background-color: rgb(67, 8, 116);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 
 .game
 {
@@ -103,9 +104,12 @@ h2
 
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 600px) {
+
+    body {
+		overflow: hidden
+    }
     
     .container{
-        position: absolute;
         padding: 80px 10px;
         text-align: center;
         margin: 0 auto;
