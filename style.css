@@ -49,6 +49,14 @@ h2
     font-weight: 600;
 }
 
+.reset:hover {background-color: #7f4b83}
+
+.reset:active {
+  background-color: #7f4b831;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .game
 {
     width: 440px;
